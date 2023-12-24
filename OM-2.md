@@ -10,11 +10,11 @@ Javadoc 描述如何使用软件提供的类和方法，对于我们做插件而
 
 你可以从下面的链接访问不同服务端的 Javadoc：
 
-- Paper（1.20）： https://jd.papermc.io/paper/1.20/index.html
+- Paper（1.20）：<https://jd.papermc.io/paper/1.20/index.html>
 
-- Spigot（最新版本）： https://hub.spigotmc.org/javadocs/spigot/
+- Spigot（最新版本）：<https://hub.spigotmc.org/javadocs/spigot/>
 
-- Spigot（中文翻译，最新版本）： https://bukkit.windit.net/javadoc/
+- Spigot（中文翻译，最新版本）：<https://bukkit.windit.net/javadoc/>
 
 !> 我们不建议阅读中文版本，尽管中文版本有翻译更容易阅读，但它可能不是最新的，可能有语义表达上的偏差，而且 Spigot 的文档不完全适用于我们使用的 Paper。<br/>除非你的英文**真的很差**，否则建议阅读 Paper 的官方英文文档。
 
