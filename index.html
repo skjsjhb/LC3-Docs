@@ -13,6 +13,14 @@
       color: rgb(81, 177, 255) !important;
     }
 
+    p {
+      color: #bbbbbb !important;
+    }
+
+    strong code {
+      font-weight: bold !important;
+    }
+
     body,
     main,
     html,
@@ -56,7 +64,7 @@
     }
 
     .token.annotation {
-      color: #bab428 !important;
+      color: #d2cc2d !important;
     }
 
     .token.class-name {
@@ -64,7 +72,15 @@
     }
 
     .token.string {
-      color: #a6e3a1 !important;
+      color: #b8ffb1 !important;
+    }
+
+    .token.keyword {
+      color: #d48443 !important;
+    }
+
+    .token.function {
+      color: #ffdb8c !important;
     }
 
     pre code {
@@ -82,8 +98,16 @@
 
   <div id="app"></div>
   <script>
+    function prettierQuote(hook) {
+      hook.beforeEach(function (content) {
+        return content.replaceAll("“", "「").replaceAll("”", "」").replaceAll("‘", "『").replaceAll("’", "』");
+      });
+    }
+
     window.$docsify = {
-      plugins: [],
+      plugins: [
+        prettierQuote
+      ],
       name: "Plugin Power",
       loadSidebar: true,
       externalLinkTarget: "_blank",
