@@ -15,7 +15,8 @@
       size-adjust: 110%;
     }
 
-    p a {
+    article p a,
+    article li a {
       color: rgb(81, 177, 255) !important;
     }
 
@@ -96,6 +97,11 @@
     pre code {
       background-color: #292a39 !important;
       font-size: 110% !important;
+    }
+
+    footer {
+      font-size: small;
+      line-height: 100%;
     }
   </style>
 
@@ -197,6 +203,7 @@
         buttonText: '复制代码',
         successText: 'OK!',
       },
+      loadFooter: '_footer.md'
     };
   </script>
 
@@ -211,6 +218,7 @@
   <script src="https://unpkg.com/docsify/lib/plugins/external-script.min.js"></script>
   <script src="https://unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
   <script src="https://unpkg.com/docsify-count/dist/countable.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
 
 
   <script src="https://unpkg.com/prismjs/components/prism-java.min.js"></script>
