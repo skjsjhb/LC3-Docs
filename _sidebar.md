@@ -1,5 +1,4 @@
-- [RESTART 还是开始了？](README)
-- [START 开始游戏](START)
+- [START 从这里开始](README)
 
 - ---
 
@@ -30,6 +29,7 @@
 
 - ---
 
+- [RESTART 还是开始了？](RESTART)
 - [STD 插件的规范](STD)
 
 - ---
