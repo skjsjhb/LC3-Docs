@@ -2,7 +2,7 @@
 
 ---
 
-© 2023 Ted "skjsjhb" Gao，公有领域作品，以 [The Unlicense](https://choosealicense.com/licenses/unlicense/) 授权。
+© 2023-2024 Ted "skjsjhb" Gao，公有领域作品，以 [The Unlicense](https://choosealicense.com/licenses/unlicense/) 授权。
 
 不提供任何担保。
 
