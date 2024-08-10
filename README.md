@@ -142,15 +142,21 @@ String s = "这里是代码片段，或者完整的程序";
 
 除此之外，本书中的内容**不是中立的**，而且，我们也没打算修改这些内容。**有关插件之外的内容，请勿进行争论**，毕竟，你是来了解技术的，其它问题我们可以在其它地方再讨论，对不对？
 
-## 镜像
+## 镜像站点
 
 本书部署在以下三个镜像上：
 
-- GitHub Pages（主要）： https://skjsjhb.github.io/PluginPower
+- 主要：<https://pd.skjsjhb.moe>
 
-- Cloudflare（备用 1）： https://plugin-power.pages.dev
+  主站部署在 Cloudflare Pages 上，此链接与 <https://plugin-power.pages.dev> 是同一站点。
 
-- Vercel（备用 2）： https://plugin-power.vercel.app
+- 备用 1：<https://skjsjhb.github.io/PluginPower>
+  
+  此站点部署在 GitHub Pages 上，用作备用用途。
+
+- 备用 2：<https://plugin-power.vercel.app>
+
+  此站点部署在 Vercel 上，用作备用用途。
 
 此外本书还有一个基于 IPFS 的备份，它将在本书的内容全部编写完成后与大家见面。
 
