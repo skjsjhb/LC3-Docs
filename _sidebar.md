@@ -1,5 +1,7 @@
 - [导航页](/README)
 - [常问问题](/FAQ)
+- [作业规范](/HW-Rules)
+- [实验规范](/Lab-Rules)
 - [实验总集](/Labs/README)
   - [实验 1：秘密消息](/Labs/L1/README)
     - [概要版](/Labs/L1/Brief)
