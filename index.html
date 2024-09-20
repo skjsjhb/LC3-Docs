@@ -1,30 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="unknown">
 
 <head>
   <meta charset="UTF-8" />
-  <title>Plugin Power of Block Game</title>
+  <title>ICS 2024 Miao</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Discover the power of plugins - again." />
+  <meta name="description" content="From bits & gates to C++ & beyond" />
   <meta name="viewport"
     content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
   <style>
-    @font-face {
-      font-family: "ResourceHanRoundedSC";
-      src: url(https://cdn.jsdelivr.net/gh/skjsjhb/PluginPower/fonts/ResourceHanRoundedCN-Normal.woff2);
-      size-adjust: 110%;
-    }
-
     article p a,
     article li a {
-      color: rgb(81, 177, 255) !important;
+      color: rgb(255, 154, 187) !important;
+      text-underline-position: under !important;
     }
 
+    article {
+      font-size: 110%;
+      font-weight: 500;
+    }
 
     article ul,
     article ol {
       margin-left: 1.2rem !important;
     }
+
 
     article p.warn,
     article p.tip {
@@ -44,10 +44,6 @@
       font-weight: bold !important;
     }
 
-    blockquote p:first-child strong {
-      color: white !important;
-    }
-
     .markdown-section p {
       margin: 0.8em 0 !important;
     }
@@ -60,7 +56,7 @@
     }
 
     body {
-      font-family: "Nunito", ResourceHanRoundedSC, BlinkMacSystemFont, "Segoe UI", Roboto,
+      font-family: Nunito, "Microsoft YaHei UI", BlinkMacSystemFont, "Segoe UI", Roboto,
         "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
         "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
       font-variant-ligatures: normal;
@@ -75,7 +71,7 @@
     p code,
     ul code:not(pre code),
     ol code:not(pre code) {
-      background-color: #314144 !important;
+      background-color: #313e44 !important;
       color: #88e3a1 !important;
     }
 
@@ -88,9 +84,12 @@
     }
 
     strong {
-      color: #fff6a6 !important;
-      font-size: large !important;
-      font-weight: 800 !important;
+      color: #a6fff5 !important;
+      font-weight: 900 !important;
+    }
+
+    del {
+      color: #777;
     }
 
     code {
@@ -134,19 +133,23 @@
       background-color: #292a39 !important;
     }
 
+    blockquote {
+      padding-top: 0.5em !important;
+      padding-bottom: 0.5em !important;
+    }
+
     hr {
-      border-color: #c6a0f6 !important;
+      border-color: rgb(255, 154, 187) !important;
     }
 
     article *:not(.warn, .tip),
     li.active>a {
-      border-color: #c6a0f6 !important;
+      border-color: rgb(255, 154, 187) !important;
     }
 
     li.active>a,
-    .app-name-link,
-    article p a {
-      color: #c6a0f6 !important;
+    .app-name-link {
+      color: rgb(255, 154, 187) !important;
     }
   </style>
 
@@ -170,8 +173,8 @@
     }
   </style>
 
-  <link rel="icon" href="//cdn.statically.io/gh/Andy-K-Sparklight/mcl-dev-tutor/main/favicon.ico" />
-  <link rel="stylesheet" href="//unpkg.com/docsify-accordion/src/style.css">
+  <link rel="icon" href="https://lc3xt.skjsjhb.moe/favicon.png" />
+  <link rel="stylesheet" href="https://unpkg.com/docsify-accordion/src/style.css">
   <link rel="stylesheet" href="https://unpkg.com/docsify-themeable@0/dist/css/theme-simple-dark.css" />
   <link href="https://cdn.jsdelivr.net/npm/prism-themes@1.9.0/themes/prism-darcula.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jetbrains-mono@1.0.6/css/jetbrains-mono.min.css" />
@@ -188,10 +191,10 @@
         return content
           .replaceAll("“**", "**“")
           .replaceAll("**”", "”**")
-          .replaceAll("“", "「")
-          .replaceAll("”", "」")
-          .replaceAll("‘", "『")
-          .replaceAll("’", "』");
+          .replaceAll("“", "『")
+          .replaceAll("”", "』")
+          .replaceAll("‘", "「")
+          .replaceAll("’", "」");
       });
     }
 
@@ -215,11 +218,10 @@
 
     var discussionTip = function (hook, vm) {
       hook.doneEach(function () {
-          document.querySelector(".giscus").insertAdjacentHTML("beforebegin",
-           "<hr/><h2>讨论区</h2><p>您需要登录 GitHub 帐户才能进行讨论，讨论区支持 Markdown 语法。</p>"+
-           "<p>讨论区的内容严格地限制于本书的教学范围内，禁止与 Minecraft 插件开发无关的内容。</p>"+
-            "<p>发布包含广告、政治、宗教、引战或其它不当内容的讨论将是自掘坟墓。</p>"
-          )
+        document.querySelector(".giscus").insertAdjacentHTML("beforebegin",
+          "<hr/><h2>讨论区</h2><p>您需要登录 GitHub 帐户才能进行讨论，讨论区支持 Markdown 语法。</p>" +
+          "<p>请不要发布与课程无关的内容。</p>"
+        )
       });
     };
 
@@ -238,7 +240,6 @@
         color: "white",
         language: "chinese"
       },
-      name: "插件设计与编程",
       loadSidebar: true,
       externalLinkTarget: "_blank",
       pagination: {
@@ -251,10 +252,10 @@
       },
       loadFooter: '_footer.md',
       giscus: {
-        repo: "skjsjhb/PluginPower",
-        repoId: "R_kgDOK7adBA",
-        category: "Giscus",
-        categoryId: "DIC_kwDOK7adBM4CcDlD",
+        repo: "skjsjhb/lc3-docs",
+        repoId: "R_kgDOM0GxuQ",
+        category: "Announcements",
+        categoryId: "DIC_kwDOM0Gxuc4CinIJ",
         mapping: "title",
         reactionsEnabled: "1",
         strict: "0",
@@ -267,7 +268,7 @@
     };
   </script>
 
-  <script src="//unpkg.com/docsify"></script>
+  <script src="https://unpkg.com/docsify"></script>
   <script src="https://cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
   <script src="https://unpkg.com/docsify-copy-code"></script>
   <script src="https://unpkg.com/docsify-themeable/dist/js/docsify-themeable.min.js"></script>
@@ -276,18 +277,10 @@
   <script src="https://unpkg.com/docsify/lib/plugins/external-script.min.js"></script>
   <script src="https://unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
   <script src="https://unpkg.com/docsify-count/dist/countable.min.js"></script>
-
-  <script src="https://unpkg.com/prismjs/components/prism-java.min.js"></script>
-  <script src="https://unpkg.com/prismjs/components/prism-c.min.js"></script>
-  <script src="https://unpkg.com/prismjs/components/prism-groovy.min.js"></script>
-  <script src="https://unpkg.com/prismjs/components/prism-properties.min.js"></script>
-  <script src="https://unpkg.com/prismjs/components/prism-yaml.min.js"></script>
-  <script src="https://unpkg.com/prismjs/components/prism-sql.min.js"></script>
-  <script src="https://unpkg.com/prismjs/components/prism-json.min.js"></script>
-
   <script src="https://unpkg.com/docsify-giscus@1.0.0/dist/docsify-giscus.min.js"></script>
-
-
+  <script src="https://unpkg.com/prismjs@1.29.0/components/prism-c.min.js"></script>
+  <script src="https://unpkg.com/prismjs@1.29.0/components/prism-cpp.min.js"></script>
+  <script src="https://unpkg.com/prismjs@1.29.0/components/prism-verilog.min.js"></script>
 </body>
 
 </html>
