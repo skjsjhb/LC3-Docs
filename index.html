@@ -225,13 +225,22 @@
       });
     };
 
+    var footer = function(hook, vm) {
+      hook.doneEach(function () {
+        document.querySelector("article").insertAdjacentHTML("beforeend",
+          "<footer><hr/>© 2024 USTC CS1002A.02 助教团队，保留所有权利。<br/><br/>不提供任何担保。</footer>"
+        )
+      });
+    }
+
 
     window.$docsify = {
       plugins: [
         prettierQuote,
         autoTop,
         fix,
-        discussionTip
+        discussionTip,
+        footer
       ],
       markdown: {
         gfm: true
