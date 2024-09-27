@@ -7,10 +7,15 @@
 
 - [LC3XT 指南](/LC3XT/README)
   - [试用评测](/LC3XT/Hello)
+
 ---
 
 - [实验总集](/Labs/README)
   - [实验 1：秘密消息](/Labs/L1/README)
-    - [实验 1 - 概要版](/Labs/L1/Brief)
-    - [实验 1 - 定制版](/Labs/L1/Miao)
-    - [实验 1 - 翻译版](/Labs/L1/CN)
+    - [实验 1 - 概要](/Labs/L1/Brief)
+    - [实验 1 - 正文](/Labs/L1/Miao)
+    - [实验 1 - 翻译](/Labs/L1/CN)
+
+---
+
+- [常用词汇表](/Words)

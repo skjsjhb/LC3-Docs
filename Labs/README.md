@@ -4,8 +4,8 @@
 
 - [实验 1：秘密消息](/Labs/L1/README)
   
-  - [概要版](/Labs/L1/Brief)
+  - [概要](/Labs/L1/Brief)
   
-  - [定制版](/Labs/L1/Miao)
+  - [正文](/Labs/L1/Miao)
   
-  - [翻译版](/Labs/L1/CN)
+  - [翻译](/Labs/L1/CN)
