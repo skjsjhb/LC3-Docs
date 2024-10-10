@@ -15,9 +15,17 @@
       text-underline-position: under !important;
     }
 
-    article {
+    article,
+    h4 * {
       font-size: 110%;
+    }
+
+    article {
       font-weight: 500;
+    }
+
+    article>blockquote>p:first-child>strong {
+      color: white !important;
     }
 
     article ul,
@@ -67,8 +75,8 @@
     p code,
     ul code:not(pre code),
     ol code:not(pre code) {
-      background-color: #313e44 !important;
-      color: #88e3a1 !important;
+      background-color: #4a3443 !important;
+      color: #ffa6c9 !important;
     }
 
     img {
@@ -138,7 +146,10 @@
       border-color: rgb(255, 154, 187) !important;
     }
 
-    article *:not(.warn, .tip),
+    article div,
+    article blockquote,
+    article h1,
+    article h2,
     li.active>a {
       border-color: rgb(255, 154, 187) !important;
     }
@@ -221,7 +232,7 @@
       });
     };
 
-    var footer = function(hook, vm) {
+    var footer = function (hook, vm) {
       hook.doneEach(function () {
         document.querySelector("article").insertAdjacentHTML("beforeend",
           "<footer><hr/>© 2024 USTC CS1002A.02 助教团队，保留所有权利。<br/><br/>不提供任何担保。</footer>"
@@ -272,6 +283,9 @@
         lang: "zh-CN",
         loading: "lazy"
       },
+      latex: {
+        customOptions: {}
+      }
     };
   </script>
 
@@ -288,6 +302,12 @@
   <script src="https://unpkg.com/prismjs@1.29.0/components/prism-c.min.js"></script>
   <script src="https://unpkg.com/prismjs@1.29.0/components/prism-cpp.min.js"></script>
   <script src="https://unpkg.com/prismjs@1.29.0/components/prism-verilog.min.js"></script>
+  <script src="https://unpkg.com/prismjs@1.29.0/components/prism-kotlin.min.js"></script>
+  <script src="https://unpkg.com/prismjs@1.29.0/components/prism-java.min.js"></script>
+  <script src="https://unpkg.com/prismjs@1.29.0/components/prism-python.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
+  <script src="https://unpkg.com/docsify-latex@0"></script>
 </body>
 
 </html>

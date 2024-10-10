@@ -5,17 +5,25 @@
 
 ---
 
-- [LC3XT 指南](/LC3XT/README)
+- [序章：LC3XT 指南](/LC3XT/README)
   - [试用评测](/LC3XT/Hello)
 
 ---
 
-- [实验总集](/Labs/README)
+- [主线：实验总集](/Labs/README)
   - [实验 1：秘密消息](/Labs/L1/README)
     - [实验 1 - 概要](/Labs/L1/Brief)
     - [实验 1 - 正文](/Labs/L1/Miao)
     - [实验 1 - 翻译](/Labs/L1/CN)
+  - [实验 2：机械化证明](/Labs/L2/README)
+    - [实验 2 - 概要](/Labs/L2/Brief)
+    - [实验 2 - 正文](/Labs/L2/Miao)
+    - [实验 2 - 翻译](/Labs/L2/CN)
 
 ---
 
-- [常用词汇表](/Words)
+- [后日谈：常用词汇表](/Words)
+
+---
+
+- [外传：Kotlin](/Omake/Kotlin)
