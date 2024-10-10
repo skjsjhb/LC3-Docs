@@ -8,4 +8,4 @@
 
 - [翻译](/Labs/L1/CN)
 
-此外，公版实验文档可以从 https://acsa.ustc.edu.cn/ics/download/lab/Lab2.pdf 获取。
+此外，公版（未修改的）实验文档可以从 https://acsa.ustc.edu.cn/ics/download/lab/Lab2.pdf 获取。

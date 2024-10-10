@@ -4,7 +4,7 @@
 
 在这篇外传里，我们将以 C 为基础，向各位读者介绍 Kotlin 这样一门“艺术品”般的现代化编程语言。有关 Kotlin 的优点和缺陷我不打算在这里花费太多篇幅说明，[Reddit](https://www.reddit.com/r/Kotlin/comments/1b0bpru/is_kotlin_worth_to_learn_in_2024/) 以及其它你能通过 Google 或其它搜索引擎找到的网站上已经有了足够多的建议。Kotlin 简洁而优雅，却和 Java 同样健壮而强大。在 Google 将其列为 Android 的官方开发语言之后，Kotlin 的关注度与日俱增。
 
-## 我们从那个经典的程序开始
+## 还就是那个经典的程序
 
 以下是 C 语言中的经典 Hello World 程序（需要 C90 或更高版本）：
 
@@ -27,9 +27,7 @@ fun main() {
 
 ## Kotlin 开发环境
 
-如同任何其它编程语言一样，要想开发 Kotlin 程序，你就需要搭设 Kotlin 的开发环境。
-
-或许你会有疑问，为什么在 Dev C++ 中没有做过类似的事情……
+如同任何其它编程语言一样，要想开发 Kotlin 程序，你就需要搭设 Kotlin 的开发环境。或许你会有疑问，为什么在 Dev C++ 中没有做过类似的事情……
 
 > **到底怎么回事？**
 > 

@@ -19,6 +19,10 @@
     - [实验 2 - 概要](/Labs/L2/Brief)
     - [实验 2 - 正文](/Labs/L2/Miao)
     - [实验 2 - 翻译](/Labs/L2/CN)
+  - [实验 3：双边检验](/Labs/L3/README)
+    - [实验 3 - 概要](/Labs/L3/Brief)
+    - [实验 3 - 正文](/Labs/L3/Miao)
+    - [实验 3 - 翻译](/Labs/L3/CN)
 
 ---
 
@@ -27,3 +31,4 @@
 ---
 
 - [外传：Kotlin](/Omake/Kotlin)
+  - [Kotlin 基础知识](/Omake/Kotlin-1)

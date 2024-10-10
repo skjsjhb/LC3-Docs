@@ -23,5 +23,3 @@ Verify the Collatz conjecture for a given number. Count the steps it takes to be
 ## Submission
 
 Similar to Lab 1, but using assembly. Assembly files usually have `.asm` as their filename extension.
-
-
