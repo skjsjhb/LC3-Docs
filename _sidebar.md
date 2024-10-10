@@ -32,3 +32,4 @@
 
 - [外传：Kotlin](/Omake/Kotlin)
   - [Kotlin 基础知识](/Omake/Kotlin-1)
+  - [Kotlin 流程控制](/Omake/Kotlin-2)
