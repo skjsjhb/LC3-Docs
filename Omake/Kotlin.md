@@ -93,7 +93,7 @@ Kotlin 是一门基于 JVM 的语言（当然，后续我们会介绍 Kotlin 与
 
 你可以单击左下角的 Build 面板（形状像一个锤子），并在其中查看整体进度。当面板显示 Finished 的时候，就代表项目设置完成。
 
-现在，在左侧的 Project Files 面板中，展开 `src/main/kotlin/Main.kt` 文件，并单击屏幕右上角的 Run 按钮（或者按下 `Shift + F10` 组合键）。如果没有出错，Run 面板将弹出，并且你将在其中看到 IDEA 的默认程序运行结果：
+现在，在左侧的 Project 面板中，展开 `src/main/kotlin/Main.kt` 文件，并单击屏幕右上角的 Run 按钮（或者按下 `Shift + F10` 组合键）。如果没有出错，Run 面板将弹出，并且你将在其中看到 IDEA 的默认程序运行结果：
 
 ```
 Hello, Kotlin!
