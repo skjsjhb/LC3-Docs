@@ -36,3 +36,4 @@
   - [Kotlin 面向过程](/Omake/Kotlin-3)
   - [Kotlin 面向函数](/Omake/Kotlin-4)
   - [Kotlin 面向对象（上）](/Omake/Kotlin-5)
+  - [Kotlin 面向对象（中）](/Omake/Kotlin-6)
