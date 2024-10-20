@@ -23,6 +23,7 @@
     - [实验 3 - 概要](/Labs/L3/Brief)
     - [实验 3 - 正文](/Labs/L3/Miao)
     - [实验 3 - 翻译](/Labs/L3/CN)
+- [LC-3 汇编语法](/Labs/LC-3)
 
 ---
 
@@ -37,3 +38,4 @@
   - [Kotlin 面向函数](/Omake/Kotlin-4)
   - [Kotlin 面向对象（上）](/Omake/Kotlin-5)
   - [Kotlin 面向对象（中）](/Omake/Kotlin-6)
+  - [Kotlin 面向对象（下）](/Omake/Kotlin-7)

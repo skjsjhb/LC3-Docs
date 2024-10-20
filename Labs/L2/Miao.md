@@ -194,6 +194,16 @@ The number after `.ORIG` tells LC-3 assembler **where to load your code**. As I'
 
 `.END` marks the end of your program. Note that `.END` by itself **does not do anything**. It's just a mark in the source and will be removed once assembled.
 
+### Clear Registers
+
+All registers are randomized when LC-3 starts up. Considering this, it's better to clear a register before using it. Take `R0` for example:
+
+```
+AND R0, R0, x0 
+```
+
+If your program behaves weirdly, please consider register clearance as a possible cause.
+
 ## Tips and Tricks
 
 - If you find the gentle way of divison is too hard, feel free to use the brute way.

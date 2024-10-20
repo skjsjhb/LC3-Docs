@@ -361,7 +361,7 @@ fun main() {
    }
    ```
    
-   尝试创建 `CialloGreeter` 和 `HelloGreeter` 提供不同的输出内容，再创建 `ConsolePrinter` 和 `FilePrinter` 提供输出到终端和文件的两种不同方式。然后，在 `main` 中组合它们（总共 4 种情况）。
+   两个基类已经为你写好，尝试创建 `CialloGreeter` 和 `HelloGreeter` 提供不同的输出内容，再创建 `ConsolePrinter` 和 `FilePrinter` 提供输出到终端和文件的两种不同方式。然后，在 `main` 中组合它们（总共 4 种情况）。
 
 > **解答**
 > 
