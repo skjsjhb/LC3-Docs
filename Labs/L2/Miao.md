@@ -144,7 +144,7 @@ INPUT  .FILL x3100
 OUTPUT .FILL x3101
 ```
 
-But be careful of a pitfall: **do not execute data as instructions**. `x3100` is perfectly valid as an address, but not quite so as an instruction (it's `JMP R0` if you're curious). I know you'll say "I will never execute the data!", and surely I believe in you, but things can go out of control **without being realized**. For example, consider the code below:
+But be careful of a pitfall: **do not execute data as instructions**. `x3100` is perfectly valid as an address, but not quite so as an instruction (it's `ST R0, <SomeAddress>` if you're curious). I know you'll say "I will never execute the data!", and surely I believe in you, but things can go out of control **without being realized**. For example, consider the code below:
 
 ```
 LDI R0, INPUT
