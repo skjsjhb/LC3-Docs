@@ -39,3 +39,6 @@
   - [Kotlin 面向对象（上）](/Omake/Kotlin-5)
   - [Kotlin 面向对象（中）](/Omake/Kotlin-6)
   - [Kotlin 面向对象（下）](/Omake/Kotlin-7)
+  - [Kotlin 泛型](/Omake/Kotlin-8)
+    
+    

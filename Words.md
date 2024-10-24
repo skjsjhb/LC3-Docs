@@ -8,6 +8,8 @@
 
 - Address Space 地址空间
 
+- Addressability 字长
+
 - Algorithm 算法
 
 - Assemble 汇编
@@ -40,7 +42,15 @@
 
 - Environment 环境
 
+- Evaluate 计算
+
 - Exception 异常
+
+- Execute 执行
+
+# F
+
+- Fetch 获取
 
 # H
 
@@ -70,6 +80,8 @@
 
 - Octal 八进制
 
+- Operand 操作数
+
 # P
 
 - Poll 轮询
@@ -95,6 +107,8 @@
 - Stack Pop 弹出栈
 
 - Stack Push 压入栈
+
+- Store 存储
 
 - String 字符串
 
