@@ -323,7 +323,7 @@ Keep in mind that the above items are **references**, not even suggestions. **Th
 
 ## Report
 
-Complete your report as you've done in Lab 1. We have no questions today.
+Based on the reporting requirements of experiment 1, if LC3XT evaluation is used, the screenshot of AC can also be attached to the report, which is convenient for teaching assistants to correct. Thank you!
 
 ## Submission
 
