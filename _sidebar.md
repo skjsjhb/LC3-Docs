@@ -40,5 +40,4 @@
   - [Kotlin 面向对象（中）](/Omake/Kotlin-6)
   - [Kotlin 面向对象（下）](/Omake/Kotlin-7)
   - [Kotlin 泛型](/Omake/Kotlin-8)
-    
-    
+  - [Kotlin 扩展函数](/Omake/Kotlin-9)
