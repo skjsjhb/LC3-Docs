@@ -24,35 +24,11 @@ In order to not end up opening the wallet disappointed, Sakiko plans to calculat
 
 Sakiko want's to know how much money she can have after some months.
 
-If you like to describe the problem in a more formal way, here's the rewritten version:
-
-> $ S_0 = 10 $
-> 
-> When $ n \ge 1 $: $ S_n = S_{n-1}  + E_{n-1} - T_{n-1} $
-> 
-> ---
-> 
-> $ E_0 = 6 $
-> 
-> When $ n \ge 1 $: $ E_n = E_{n-1} \times 2 $
-> 
-> ---
-> 
-> $ T_0 = 2 $
-> 
-> When $ T_{n-1} \ge E_{n-1} $: $ T_n = 2 $
-> 
-> Otherwise: $ T_n = T_{n-1} \times 4 $
-> 
-> ---
-> 
-> Evaluate $ S_n $ for a given $ n $.
-
 ## Tasks
 
 Tell Sakiko how much money can she earn after `N` months.
 
-- Using the top-down solution is **enforced**. i.e., Create functions to calculate $ S_n $, $ E_n $ and $ T_n $ using recursion.
+- Using the top-down solution is **enforced**. i.e., use recursions to calculate income and expenses.
 
 - The input `N` locates at `x3100`.
 
@@ -143,7 +119,7 @@ ADD R6, R6, x1
 LDR R0, R6, x0
 ```
 
-And that's it! By saving and restoring the value of registers, variables inside a function will not get messed up, and we're able to create functions to calculate $ S_n $, $ E_n $ and $ T_n $.
+And that's it! By saving and restoring the value of registers, variables inside a function will not get messed up.
 
 ## Boilerplate
 
