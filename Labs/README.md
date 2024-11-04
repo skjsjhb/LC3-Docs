@@ -17,7 +17,7 @@
   - [正文](/Labs/L2/Miao)
   
   - [翻译](/Labs/L2/CN)
-  
+
 - [实验 3：双边检验](/Labs/L3/README)
   
   - [概要](/Labs/L3/Brief)
@@ -25,3 +25,11 @@
   - [正文](/Labs/L3/Miao)
   
   - [翻译](/Labs/L3/CN)
+
+- [实验 4：未雨绸缪](/Labs/L4/README)
+  
+  - [概要](/Labs/L4/Brief)
+  
+  - [正文](/Labs/L4/Miao)
+  
+  - [翻译](/Labs/L4/CN)

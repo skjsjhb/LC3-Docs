@@ -23,6 +23,10 @@
     - [实验 3 - 概要](/Labs/L3/Brief)
     - [实验 3 - 正文](/Labs/L3/Miao)
     - [实验 3 - 翻译](/Labs/L3/CN)
+  - [实验 4：未雨绸缪](/Labs/L4/README)
+    - [实验 4 - 概要](/Labs/L4/Brief)
+    - [实验 4 - 正文](/Labs/L4/Miao)
+    - [实验 4 - 翻译](/Labs/L4/CN)
 - [LC-3 汇编语法](/Labs/LC-3)
 
 ---
