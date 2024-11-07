@@ -32,6 +32,8 @@
 
 - Compile 编译
 
+- Cycle 周期
+
 # D
 
 - Decimal 十进制
@@ -107,6 +109,8 @@
 - Stack Pop 弹出栈
 
 - Stack Push 压入栈
+
+- State 状态
 
 - Store 存储
 

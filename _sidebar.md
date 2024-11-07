@@ -27,7 +27,7 @@
     - [实验 4 - 概要](/Labs/L4/Brief)
     - [实验 4 - 正文](/Labs/L4/Miao)
     - [实验 4 - 翻译](/Labs/L4/CN)
-  - [终极实验 A：汇编器](/Labs/LA/Gen)
+  - [终极实验 A：Visual LC-3](/Labs/LA/Gen)
 - [LC-3 汇编语法](/Labs/LC-3)
 
 ---
