@@ -27,6 +27,10 @@
     - [实验 4 - 概要](/Labs/L4/Brief)
     - [实验 4 - 正文](/Labs/L4/Miao)
     - [实验 4 - 翻译](/Labs/L4/CN)
+  - [实验 5：探秘之光](/Labs/L5/README)
+    - [实验 5 - 概要](/Labs/L5/Brief)
+    - [实验 5 - 正文](/Labs/L5/Miao)
+    - [实验 5 - 翻译](/Labs/L5/CN)
   - [终极实验 A：Visual LC-3](/Labs/LA/Gen)
 - [LC-3 汇编语法](/Labs/LC-3)
 
