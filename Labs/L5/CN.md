@@ -130,7 +130,7 @@ while (n >= 10) {
 
 提交要求与实验 2 相同。
 
-## Mythic Light Quest（原曲使用）
+## Mystic Light Quest（原曲使用）
 
 （下方的嵌入式页面包含自动播放代码，点按即可播放）
 

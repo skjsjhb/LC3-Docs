@@ -1,4 +1,4 @@
-# Lab 5: Mythic Light Quest (Miao's Edition)
+# Lab 5: Mystic Light Quest (Miao's Edition)
 
 ## Brief
 
@@ -8,7 +8,7 @@ With even closer to the last lab, things are getting more complex while also com
 
 ## Intro
 
-For secrets. For treasures. For history. The attraction of discovery pushes the construction of our knowledge base. As what has been said, "Mythic things are always beside us". Here, in the world of 0's and 1's, you act as the leader of the LC-3 adventure squad, with the mission of **finding a buried pattern**: `1010`. Unlike stories, this is not a magic spell which destroys the world, nor the secret key to the super weapon. It's just a tiny, yet priceless, souvenir. For the braves, and for the mythic light. Your squad has already geared up, time to issue your commands.
+For secrets. For treasures. For history. The attraction of discovery pushes the construction of our knowledge base. As what has been said, "Mystic things are always beside us". Here, in the world of 0's and 1's, you act as the leader of the LC-3 adventure squad, with the mission of **finding a buried pattern**: `1010`. Unlike stories, this is not a magic spell which destroys the world, nor the secret key to the super weapon. It's just a tiny, yet priceless, souvenir. For the braves, and for the mystic light. Your squad has already geared up, time to issue your commands.
 
 ## Tasks
 
@@ -132,7 +132,7 @@ The report is the same as... whatever, you know what the report should be like. 
 
 You already know what the submission should be like.
 
-## The "True" Mythic Light Quest
+## The "True" Mystic Light Quest
 
 (This embedded frame contains autoplay code. Click to play.)
 
