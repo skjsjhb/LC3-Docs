@@ -20,6 +20,8 @@
 
 - Base Register 基址寄存器
 
+- Bias 偏移量
+
 - Binary 二进制
 
 - Bitwise 按位地
@@ -30,6 +32,8 @@
 
 - Call 调用
 
+- Circuit 电路
+
 - Compile 编译
 
 - Cycle 周期
@@ -37,6 +41,8 @@
 # D
 
 - Decimal 十进制
+
+- Decode 解码
 
 - Destination Register 目的寄存器
 
@@ -50,15 +56,25 @@
 
 - Execute 执行
 
+- Exponent 指数
+
+- Expression 表达式
+
 # F
 
 - Fetch 获取
+
+- Figure 图像
+
+- Float 浮动
 
 # H
 
 - Hexadecimal 十六进制
 
 # I
+
+- Implement 实现
 
 - Instruction 指令
 
@@ -88,6 +104,8 @@
 
 - Poll 轮询
 
+- Precision 精度
+
 - Privileged 特权级
 
 - Program 程序
@@ -103,6 +121,8 @@
 - Schedule 调度
 
 - Source Register 源寄存器
+
+- Segment 片段
 
 - Stack 栈
 
