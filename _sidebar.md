@@ -33,6 +33,7 @@
     - [实验 5 - 翻译](/Labs/L5/CN)
   - [终极实验 A：Visual LC-3](/Labs/LA/Gen)
     - [Kotlin 模板](/Labs/LA/Kotlin)
+  - [终极实验 S：Re LC-3](/Labs/LS/Gen)
 - [LC-3 汇编语法](/Labs/LC-3)
 
 ---

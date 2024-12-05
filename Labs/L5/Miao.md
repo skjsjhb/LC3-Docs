@@ -14,7 +14,7 @@ For secrets. For treasures. For history. The attraction of discovery pushes the 
 
 Reads a string from the terminal (aka. keyboard), count how many times does the key pattern `1010` occurs.
 
-- Characters are never reused. i.e. `10101010` contains 2 keys (`1010/1010`).
+- Characters may be reused. i.e. `10101010` contains 3 keys (`1010/1010` and `10/1010/10`).
 
 - The input ends with the lowercased letter `y`.
 
