@@ -100,8 +100,6 @@ R0->x0002
   
   - They won't call `HALT`.
   
-  - 
-  
   - They won't use `R6` or `R7`.
 
 - Your code starts at `x800` and runs **in supervisor mode**.
