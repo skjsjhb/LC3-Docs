@@ -227,7 +227,7 @@ if(window.finalOp == "reject") rejectThat()
 
 ### 阶段 2：存储器实现
 
-要实现的存储器包含内存和寄存器两个，分别位于 `src/main/kotlin/Memory.kt` 和 `src/main/kotlin/RegisterFile` 中。内存部分已经为你写好，只需要补全寄存器的实现。
+要实现的存储器包含内存和寄存器两个，分别位于 `src/main/kotlin/Memory.kt` 和 `src/main/kotlin/RegisterFile.kt` 中。内存部分已经为你写好，只需要补全寄存器的实现。
 
 > **TODO 标记**
 > 
