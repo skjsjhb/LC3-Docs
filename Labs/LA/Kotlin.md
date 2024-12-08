@@ -117,7 +117,7 @@
 
 ![](img/Kotlin/2024-12-03-20-38-27-image.png)
 
-?> 如果没有类似的图样，请按两下键盘上的 `Shift` 键，在弹出的搜索框中键入 `gradle`，并单击具有图示图标的选项。<br/><br/><img src="/Labs/LA/img/Kotlin/2024-12-03-20-40-21-image.png"/>
+?> 如果没有类似的图样，请按两下键盘上的 `Shift` 键，在弹出的搜索框中键入 `gradle`，并单击具有图示图标的选项。<br/><br/><img src="img/Kotlin/2024-12-03-20-40-21-image.png"/>
 
 在选单中展开 **Tasks**，选择 **application**，并双击 **run** 任务，Gradle 会编译并运行项目代码。稍等一会儿，你将看到如下界面：
 
