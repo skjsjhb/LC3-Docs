@@ -1,0 +1,22 @@
+{
+  "id": "exp/ICS-TR-1",
+  "title": "ICS-TR-1 试用评测",
+  "description": "这并不是课程要求内的实验。不过，无论是文档排版还是实验内容，都与正式实验非常相似。通过这个实验，你可以了解完成 ICS 课程实验的一般流程。",
+  "source": "@site/docs/exp/ICS-TR-1.md",
+  "sourceDirName": "exp",
+  "slug": "/exp/ICS-TR-1",
+  "permalink": "/docs/exp/ICS-TR-1",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "LC-3 评测姬",
+    "permalink": "/docs/lc3xt"
+  }
+}

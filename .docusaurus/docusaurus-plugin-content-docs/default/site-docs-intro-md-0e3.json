@@ -1,0 +1,22 @@
+{
+  "id": "intro",
+  "title": "欢迎来到计算世界",
+  "description": "欢迎！这里是 USTC《计算系统概论 A》苗老师班 2025 年秋季学期（CS1002A.02.2025FA）的课程主页。",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "LC-3 评测姬",
+    "permalink": "/docs/lc3xt"
+  }
+}
