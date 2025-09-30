@@ -19,7 +19,11 @@ const config: Config = {
     projectName: 'LC3-Docs', // Usually your repo name.
 
     onBrokenLinks: 'warn',
-    onBrokenMarkdownLinks: 'warn',
+    markdown: {
+        hooks: {
+            onBrokenMarkdownLinks: "warn"
+        }
+    },
 
     i18n: {
         defaultLocale: 'zh-Hans',
