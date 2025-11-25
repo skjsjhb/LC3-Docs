@@ -50,9 +50,10 @@ HALT
 
 - 行与行之间以 LF `\n` 分隔，可能有空行。
 - 源代码可能有注释，注释以分号 `;` 开始，至所在行的末尾结束。
-- 每个非空行仅包含一条指令（包含伪指令，下同），每条指令也仅会写在一行中。
+- 每个非空行仅包含一条指令（包含伪指令，下同），每条指令也仅会写在一行中（标签除外）。
 - 指令可能会有不定数目空格的缩进。
-- 如果指令有标签，标签会放在同一行，位于操作码前，且与操作码之间有一空格。
+- 如果指令有标签，标签可能放在指令前（与操作码有一空格），或者在指令上方一行。
+- 指令可能有多个标签。
 - 操作码与操作数之间有一空格。
 - 每两个操作数之间以逗号加空格 `, ` &nbsp;分隔。
 - 标签、操作码和寄存器名为大写，立即数前缀 `x` 及其字母为小写。
@@ -61,3 +62,105 @@ HALT
 - `.BLKW` 后的操作数没有立即数前缀。
 - 带有汇编名称的中断（如 `HALT`）会使用其中断名，而不是 `TRAP` 与立即数的组合。
 - 源代码仅包含可打印 ASCII 字符。
+
+## 评测流程与环境
+
+### C/C++
+
+对于 C/C++ 代码，如果评测系统发现 `CMakeLists.txt` 或 `Makefile`，就会尝试调用相应工具构建你的项目，并在输出目录下寻找可执行文件作为目标程序：
+
+- CMake：
+
+  ```
+  mkdir build
+  cd build
+  cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ ..
+  cmake --build .
+  ```
+
+- Makefile：
+  
+  ```
+  make CC=/usr/bin/clang CXX=/usr/bin/clang++ CFLAGS=-O2 CXXFLAGS=-O2
+  ```
+
+如果找不到构建脚本，那么评测系统会将所有源代码文件合并在一起，直接传递给编译器，并同样开启 `-O2` 优化。如果源代码中有 C++ 文件，则所有源代码传递给 `clang++`，否则传递给 `clang`。
+
+评测 C/C++ 程序所用的环境：
+
+```
+Alpine Linux 3.22.2
+Alpine clang version 20.1.8
+cmake version 3.31.7
+GNU Make 4.4.1
+```
+
+:::info 等一下！
+
+`clang` 和 `clang++` 与你所熟悉的 `gcc` 与 `g++` 在一些地方有所不同，例如不是所有的 GNU 扩展都被 `clang` 所支持。如果在评测中遇到问题，请先检查你的代码能否由 `clang` 正常编译。
+
+:::
+
+### Rust
+
+评测系统使用 `cargo run --release` 来运行所提交的代码。
+
+评测 Rust 程序所用的环境：
+
+```
+Alpine Linux 3.22.2
+rustc 1.91.1 (ed61e7d7e 2025-11-07)
+cargo 1.91.1 (ea2d97820 2025-10-10)
+```
+
+### Python
+
+评测系统尝试寻找并执行 `main.py`，如果仅提交一份文件，它必须如此命名。
+
+评测 Python 程序所用的环境：
+
+```
+Alpine Linux 3.22.2
+Python 3.14.0 (main, Oct  8 2025, 23:12:31) [GCC 14.2.0]
+```
+
+### TypeScript/JavaScript
+
+评测系统尝试寻找并执行 `main.js` 和 `main.ts`，如果仅提交一份文件，则它必须命名为二者之一。
+
+评测 TypeScript/JavaScript 程序所用的环境：
+
+```
+Alpine Linux 3.22.2
+Bun 1.3.3
+```
+
+### Java/Kotlin
+
+评测系统仅支持构建 Gradle 项目，使用如下命令：
+
+```
+chmod +x ./gradlew
+./gradlew run
+```
+
+评测 Java/Kotlin 程序所用的环境：
+
+```
+Alpine Linux 3.22.2
+openjdk version "25.0.1" 2025-10-21 LTS
+OpenJDK Runtime Environment Corretto-25.0.1.9.1 (build 25.0.1+9-LTS)
+OpenJDK 64-Bit Server VM Corretto-25.0.1.9.1 (build 25.0.1+9-LTS, mixed mode, sharing)
+```
+
+:::info
+
+评测系统仅提供支持 Java 25 的 OpenJDK，如遇向下兼容性问题，请更新你的代码和构建脚本。
+
+:::
+
+:::note
+
+由于 Gradle 插件和 Kotlin 编译器等资源每次都需要重新下载，Java/Kotlin 程序评测起来会比较慢，在评测过程中请耐心等待。
+
+:::
